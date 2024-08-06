@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
-import Head from 'next/head';
 const inter = Inter({ subsets: ["latin"] });
+import Head from "next/head";
 
 export const metadata = {
-  title: "contact - page",
-  description: "description",
-  canonical: "https://example.com/tienda", // Full canonical URL
+  title: "Recetas Saludables: 10 Platos Fáciles y Rápidos para Principiantes",
+  description:
+    "Descubre 10 recetas saludables, fáciles y rápidas perfectas para principiantes en la cocina. ¡Comienza tu viaje culinario hoy!",
 };
 
 export default function RootLayout({ children }) {

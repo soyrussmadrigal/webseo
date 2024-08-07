@@ -5,7 +5,7 @@ import Head from "next/head";
 export const metadata = {
   title: "Recetas Saludables: 10 Platos Fáciles y Rápidos para Principiantes",
   description:
-    "Descubre 10 recetas saludables, fáciles y rápidas perfectas para principiantes en la cocina. ¡Comienza tu viaje culinario hoy!",
+    "Descubre 12 recetas saludables, fáciles y rápidas perfectas para principiantes en la cocina. ¡Comienza tu viaje culinario hoy!",
 };
 
 export default function RootLayout({ children }) {

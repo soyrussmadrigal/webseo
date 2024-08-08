@@ -3,7 +3,7 @@ const inter = Inter({ subsets: ["latin"] });
 import Head from "next/head";
 
 export const metadata = {
-  title: "Recetas Saludables: 10 Platos Fáciles y Rápidos para Principiantes",
+  title: "Recetas Saludables: 10 Platos Fáciles y Rápidos para Principiantes | Web",
   description:
     "Descubre 12 recetas saludables, fáciles y rápidas perfectas para principiantes en la cocina. ¡Comienza tu viaje culinario hoy!",
 };

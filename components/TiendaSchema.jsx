@@ -1,23 +1,22 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
-export default function TiendaSchema() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Mi Tienda",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Calle Principal 123",
-      "addressLocality": "Ciudad"
-    }
-  };
-
+export default function TiendaSchema () {
   return (
-    <Head>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-    </Head>
-  );
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "AboutPage",
+              "name": "Sobre Nosotros",
+              "description": "Página sobre nuestra empresa"
+            })
+          }}
+        />
+      </Head>
+      <h1>Sobre Nosotros</h1>
+    </>
+  )
 }

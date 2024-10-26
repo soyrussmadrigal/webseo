@@ -1,24 +1,23 @@
-import { ArticleJsonLd } from 'next-seo';
+import Head from 'next/head';
 
-const Page = () => (
-  <>
-    <h1>Article JSON-LD</h1>
-    <ArticleJsonLd
-      url="https://example.com/article"
-      title="Article headline"
-      images={[
-        'https://example.com/photos/1x1/photo.jpg',
-        'https://example.com/photos/4x3/photo.jpg',
-        'https://example.com/photos/16x9/photo.jpg',
-      ]}
-      datePublished="2015-02-05T08:00:00+08:00"
-      dateModified="2015-02-05T09:00:00+08:00"
-      authorName={['Jane Blogs', 'Mary Stone']}
-      publisherName="Gary Meehan"
-      publisherLogo="https://www.example.com/photos/logo.jpg"
-      description="This is a mighty good description of this article."
-    />
-  </>
-);
+export default function TiendaSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Mi Tienda",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Principal 123",
+      "addressLocality": "Ciudad"
+    }
+  };
 
-export default Tiendaschema;
+  return (
+    <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+    </Head>
+  );
+}

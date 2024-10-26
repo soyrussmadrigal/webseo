@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         {children}
-        <TiendaSchema/> 
+        <TiendaSchema />
       </body>
       <link rel="canonical" href={metadata.canonical} />
     </html>

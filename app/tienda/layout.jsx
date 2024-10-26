@@ -1,3 +1,4 @@
+import TiendaSchema from "@/components/TiendaSchema";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import Head from "next/head";
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         {children}
-        
+        <TiendaSchema/> 
       </body>
       <link rel="canonical" href={metadata.canonical} />
     </html>

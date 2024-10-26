@@ -1,4 +1,3 @@
-import TiendaSchema from "@/components/TiendaSchema";
 import Image from "next/image";
 
 export default function Home() {
@@ -74,8 +73,6 @@ export default function Home() {
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>
-
-        <TiendaSchema/>
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

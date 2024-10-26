@@ -1,8 +1,8 @@
-import Script from 'next/script'
+import Script from "next/script"
 
-export default function TiendaSchema({ data }) {
-  const schema = {
-      "@context": "https://schema.org",
+export default function TiendaSchema({data}) {
+const schema = {
+    "@context": "https://schema.org",
       "@type": "Person",
       "address": {
         "@type": "PostalAddress",
@@ -22,11 +22,11 @@ export default function TiendaSchema({ data }) {
       "telephone": "(425) 123-4567",
       "url": "http://www.janedoe.com"
     };
-
   return (
     <script 
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  />
+   
   )
 }

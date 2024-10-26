@@ -6,7 +6,7 @@ export const metadata = {
   title: "Recetas Saludables: 10 Platos Fáciles y Rápidos para | Web 2024",
   description:
     "Descubre 12 recetas saludables, fáciles y ddddd ssss para ddddssssssd en la cociffffffna. ¡Comienza tu viaje culinario hoydd!",
-  canonical: "http://localhost:3000/tienda",
+  canonical: "https://webseo-ten.vercel.app",
 };
 export default function RootLayout({ children }) {
   return (

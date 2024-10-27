@@ -12,7 +12,7 @@ export const metadata = {
     title: 'Título para Redes Sociales',
     description: 'Descripción para redes sociales',
     type: 'website',
-    url: 'https://webseo-ten.vercel.app/tienda',
+    url: 'https://tusitio.com',
     image: '/images/dog.jpeg',
     locale: 'es_ES',
   },

@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Descripción para redes sociales',
     type: 'website',
     url: 'https://webseo-ten.vercel.app/tienda',
-    image: '/images/dog.jpg',
+    image: '/images/dog.jpeg',
     locale: 'es_ES',
   },
 

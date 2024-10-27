@@ -8,12 +8,12 @@ export const metadata = {
   description:
     "Descubre 12 recetas saludables, fáciles y ddddd ssss para ddddssssssd en la cociffffffna. ¡Comienza tu viaje culinario hoydd!",
   canonical: "https://webseo-ten.vercel.app/tienda",
+  keywords: "keyword1, keyword2, keyword3",
 };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <test />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>

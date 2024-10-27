@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Descripción para redes sociales',
     type: 'website',
     url: 'https://tusitio.com',
-    image: 'https://www.nerdwallet.com/front-page-images/_next/image?url=/nw_plus_assets/nwplus-hero-image-v3.png',
+    image: '/images/dog.jpg',
     locale: 'es_ES',
   },
 

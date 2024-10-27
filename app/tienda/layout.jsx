@@ -8,8 +8,7 @@ export const metadata = {
   description: "Descubre 12 recetas saludables, fáciles y ddddd ssss para ddddssssssd en la cociffffffna. ¡Comienza tu viaje culinario hoydd!",
   canonical: "https://webseo-ten.vercel.app/tienda",
   
-   // Open Graph - para compartir en redes sociales
-   openGraph: {
+  openGraph: {
     title: 'Título para Redes Sociales',
     description: 'Descripción para redes sociales',
     type: 'website',
@@ -17,6 +16,7 @@ export const metadata = {
     image: 'https://tusitio.com/og-image.jpg',
     locale: 'es_ES',
   },
+
 };
 
 export default function RootLayout({ children }) {
